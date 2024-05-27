@@ -1,10 +1,10 @@
 body {
-    background-color: #007AFF !important;
+    background-color: RGB(223, 207, 190) !important;
 }
 
 .container {
     min-height: 100vh;
-    background-color: #007AFF !important;
+    background-color: RGB(223, 207, 190) !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,5 +29,23 @@ body {
 
 .bg-success, .bg-danger {
     color: white;
+}
 
+.width-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center; 
+}   
+
+.final-headline {
+    font-size: 38px;
+    margin-bottom: 32px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
 }
